@@ -65,19 +65,7 @@ An AI agent system that finds decision-makers at Indian enterprises (DPO, CISO, 
 
 ---
 
-## Visual Walkthrough & Screenshots Section
 
-| Screen | Description |
-| :--- | :--- |
-| **Command Center Dashboard** | Real-time KPI cards vs targets, statutory enactment countdown banner, pipeline funnel bar chart, and sector distributions. |
-| **Guided Checklist** | 9-step first-run onboarding progress tracker taking non-technical operators through the complete compliance lifecycle. |
-| **Prospects & ICP Gate** | Drag-and-drop CSV upload, validation report dialog, work deliverability verification, and statutory lawful basis tagging. |
-| **Drafts & Review Queue** | Side-by-side view of email body, <=300 char LinkedIn notes, retrieved DPDP Act citations, fact-check pass/fail reasons, and keyboard shortcuts (`A`/`E`/`R`). |
-| **Send Queue & Outbox** | Daily domain cap gauge (max 50/day), spacing pacing, and local outbox inspector displaying rendered emails and 1-click unsubscribe links. |
-| **Inbound Replies & Intent Router** | Keyword-first opt-out classifier with instant suppression ledger integration and calendar demo routing. |
-| **Suppression & Immutable Audit Trail** | Searchable central suppression list with CSV export and regulatory tamper-evident audit logs. |
-| **Compliance Configuration** | Legal sign-off gate (blocking live sends until approved), Groq model selections, sender notice identities, and 90-day retention cleanup. |
-| **Public 1-Click Unsubscribe** | Lightweight public page (`/unsubscribe/:token`) confirming instant erasure and suppression without requiring authentication. |
 
 ---
 
