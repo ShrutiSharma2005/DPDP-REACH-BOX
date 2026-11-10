@@ -1,0 +1,82 @@
+[
+  {
+    "id": "FC-01",
+    "name": "Clean Compliant Draft",
+    "expected_result": "PASS",
+    "target_rule": "Clean baseline draft meeting all statutory and formatting criteria",
+    "email_body": "Hi Aarav,\n\nI found your contact via public leadership directory while researching compliance leaders in fintech.\n\nUnder Section 8 of the DPDP Act 2023, data fiduciaries face obligations to implement reasonable security safeguards to prevent personal data breaches. Statutory penalties can reach up to ₹250 crore depending on the breach.\n\nAt RegulationFlow Technologies, our platform DPDPFlow provides automated consent management, Section 8 security telemetry, and grievance redressal.\n\nWould you be open to a brief 10-minute briefing next Tuesday to benchmark FinFlow's readiness ahead of the May 2027 enforcement deadline?\n\nBest regards,\nAakash Verma, DPDPFlow\n\nUnsubscribe: {{unsubscribe_link}}",
+    "linkedin_note": "Hi Aarav, noticed your work leading data protection at FinFlow. Would love to share how Indian fintechs are preparing for DPDP Act Section 8 safeguards before May 2027."
+  },
+  {
+    "id": "FC-02",
+    "name": "Hallucinated Section 89",
+    "expected_result": "FAIL",
+    "target_rule": "Statutory Hallucination (DPDP Act only has Sections 1-44)",
+    "expected_error_keyword": "statutory hallucination",
+    "email_body": "Hi Aarav,\n\nI found your contact via public leadership directory while researching compliance leaders in fintech.\n\nUnder Section 89 of the DPDP Act 2023, data fiduciaries face obligations to implement reasonable security safeguards to prevent personal data breaches. Statutory penalties can reach up to ₹250 crore depending on the breach.\n\nAt RegulationFlow Technologies, our platform DPDPFlow provides automated consent management, Section 8 security telemetry, and grievance redressal.\n\nWould you be open to a brief 10-minute briefing next Tuesday to benchmark FinFlow's readiness ahead of the May 2027 enforcement deadline?\n\nBest regards,\nAakash Verma, DPDPFlow\n\nUnsubscribe: {{unsubscribe_link}}",
+    "linkedin_note": "Hi Aarav, noticed your work leading data protection at FinFlow. Would love to connect regarding Section 89 obligations."
+  },
+  {
+    "id": "FC-03",
+    "name": "Hallucinated Section 102",
+    "expected_result": "FAIL",
+    "target_rule": "Statutory Hallucination",
+    "expected_error_keyword": "statutory hallucination",
+    "email_body": "Hi Aarav,\n\nI found your contact via public leadership directory while researching compliance leaders in fintech.\n\nUnder Section 102 of the DPDP Act 2023, data fiduciaries face obligations to implement reasonable security safeguards to prevent personal data breaches. Statutory penalties can reach up to ₹250 crore depending on the breach.\n\nAt RegulationFlow Technologies, our platform DPDPFlow provides automated consent management and grievance redressal.\n\nWould you be open to a brief 10-minute briefing next Tuesday to benchmark FinFlow's readiness ahead of the May 2027 enforcement deadline?\n\nBest regards,\nAakash Verma, DPDPFlow\n\nUnsubscribe: {{unsubscribe_link}}",
+    "linkedin_note": "Hi Aarav, let's connect regarding Section 102 audit requirements."
+  },
+  {
+    "id": "FC-04",
+    "name": "Banned Penalty Phrasing (Per Violation)",
+    "expected_result": "FAIL",
+    "target_rule": "Banned penalty phrasing ('₹250 crore per violation')",
+    "expected_error_keyword": "banned phrase",
+    "email_body": "Hi Aarav,\n\nI found your contact via public leadership directory while researching compliance leaders in fintech.\n\nUnder Section 8 of the DPDP Act 2023, failure to implement safeguards carries statutory fines of ₹250 crore per violation across organizations.\n\nAt RegulationFlow Technologies, our platform DPDPFlow provides automated consent management, Section 8 security telemetry, and grievance redressal.\n\nWould you be open to a brief 10-minute briefing next Tuesday to benchmark FinFlow's readiness ahead of the May 2027 enforcement deadline?\n\nBest regards,\nAakash Verma, DPDPFlow\n\nUnsubscribe: {{unsubscribe_link}}",
+    "linkedin_note": "Hi Aarav, noticed your work at FinFlow. Connecting regarding DPDP Act Section 8 safeguards."
+  },
+  {
+    "id": "FC-05",
+    "name": "Missing Unsubscribe Placeholder",
+    "expected_result": "FAIL",
+    "target_rule": "Missing mandatory one-click unsubscribe mechanism",
+    "expected_error_keyword": "unsubscribe",
+    "email_body": "Hi Aarav,\n\nI found your contact via public leadership directory while researching compliance leaders in fintech.\n\nUnder Section 8 of the DPDP Act 2023, data fiduciaries face obligations to implement reasonable security safeguards to prevent personal data breaches. Statutory penalties can reach up to ₹250 crore depending on the breach.\n\nAt RegulationFlow Technologies, our platform DPDPFlow provides automated consent management, Section 8 security telemetry, and grievance redressal.\n\nWould you be open to a brief 10-minute briefing next Tuesday to benchmark FinFlow's readiness ahead of the May 2027 enforcement deadline?\n\nBest regards,\nAakash Verma, DPDPFlow",
+    "linkedin_note": "Hi Aarav, noticed your work at FinFlow. Connecting regarding DPDP Act Section 8 safeguards."
+  },
+  {
+    "id": "FC-06",
+    "name": "Missing Public Source Notice",
+    "expected_result": "FAIL",
+    "target_rule": "Missing public source provenance disclosure (Section 3(c)(ii)(A))",
+    "expected_error_keyword": "source attribution",
+    "email_body": "Hi Aarav,\n\nI came across your private contact details through confidential industry sources.\n\nUnder Section 8 of the DPDP Act 2023, data fiduciaries face obligations to implement reasonable security safeguards to prevent personal data breaches. Statutory penalties can reach up to ₹250 crore depending on the breach.\n\nAt RegulationFlow Technologies, our platform DPDPFlow provides automated consent management, Section 8 security telemetry, and grievance redressal.\n\nWould you be open to a brief 10-minute briefing next Tuesday to benchmark FinFlow's readiness ahead of the May 2027 enforcement deadline?\n\nBest regards,\nAakash Verma, DPDPFlow\n\nUnsubscribe: {{unsubscribe_link}}",
+    "linkedin_note": "Hi Aarav, saw your profile. Let's connect on data privacy."
+  },
+  {
+    "id": "FC-07",
+    "name": "Body Word Count Underflow (Too Short)",
+    "expected_result": "FAIL",
+    "target_rule": "Word count below minimum 90 words constraint",
+    "expected_error_keyword": "word count",
+    "email_body": "Hi Aarav,\n\nI found your contact via public leadership directory.\n\nDPDPFlow provides automated consent management for DPDP Act Section 8 compliance. Penalties reach up to ₹250 crore.\n\nCan we chat next Tuesday?\n\nUnsubscribe: {{unsubscribe_link}}",
+    "linkedin_note": "Hi Aarav, let's connect regarding DPDP Act readiness."
+  },
+  {
+    "id": "FC-08",
+    "name": "Body Word Count Overflow (Too Long)",
+    "expected_result": "FAIL",
+    "target_rule": "Word count above maximum 120 words constraint",
+    "expected_error_keyword": "word count",
+    "email_body": "Hi Aarav,\n\nI found your contact via public leadership directory while researching compliance leaders in Indian fintech organizations.\n\nUnder Section 8 of the DPDP Act 2023, data fiduciaries face extensive statutory obligations to implement comprehensive, reasonable security safeguards to prevent any personal data breaches. Statutory penalties can reach up to ₹250 crore depending on the nature and severity of the breach.\n\nAt RegulationFlow Technologies, our flagship platform DPDPFlow delivers end-to-end automated consent management gateways, real-time Section 8 security telemetry, data mapping, and automated grievance redressal mechanisms tailored specifically for high-growth digital businesses in India.\n\nFurthermore, our comprehensive architecture guarantees continuous adherence with all Indian regulatory directives across hybrid cloud infrastructure and on-premise environments without requiring manual engineering interventions.\n\nWould you be open to a brief 10-minute briefing next Tuesday to benchmark FinFlow's readiness ahead of the May 2027 statutory enforcement deadline?\n\nBest regards,\nAakash Verma, DPDPFlow\n\nUnsubscribe: {{unsubscribe_link}}",
+    "linkedin_note": "Hi Aarav, noticed your work at FinFlow. Connecting regarding DPDP Act Section 8 safeguards."
+  },
+  {
+    "id": "FC-09",
+    "name": "LinkedIn Connection Note Overflow (>300 Characters)",
+    "expected_result": "FAIL",
+    "target_rule": "LinkedIn connection note exceeds hard 300 character limit",
+    "expected_error_keyword": "linkedin",
+    "email_body": "Hi Aarav,\n\nI found your contact via public leadership directory while researching compliance leaders in fintech.\n\nUnder Section 8 of the DPDP Act 2023, data fiduciaries face obligations to implement reasonable security safeguards to prevent personal data breaches. Statutory penalties can reach up to ₹250 crore depending on the breach.\n\nAt RegulationFlow Technologies, our platform DPDPFlow provides automated consent management, Section 8 security telemetry, and grievance redressal.\n\nWould you be open to a brief 10-minute briefing next Tuesday to benchmark FinFlow's readiness ahead of the May 2027 enforcement deadline?\n\nBest regards,\nAakash Verma, DPDPFlow\n\nUnsubscribe: {{unsubscribe_link}}",
+    "linkedin_note": "Hi Aarav, I noticed your remarkable work leading enterprise data protection and infosec at FinFlow Technologies. I wanted to reach out because the DPDP Act 2023 brings strict Section 8 obligations with penalties reaching ₹250 crore. We are assisting Indian fintechs with automated compliance and would love to share insights with your team."
+  }
+]

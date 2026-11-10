@@ -1,0 +1,41 @@
+id,from_email,subject,body,expected_classification,expected_suppression,description
+1,ananya.iyer@cartcraft.example,Re: Section 5 consent notices - CartCraft,stop sending these emails,opt_out,true,Direct keyword stop
+2,rohan.desai@cloudmetric.example,Re: Telemetry audit,Unsubscribe immediately.,opt_out,true,Standard single-word unsubscribe
+3,kavita.nair@securepay.example,Re: DPDP governance,Please remove me from this list and do not reach out again.,opt_out,true,Polite list removal request
+4,arjun.reddy@medisync.example,Re: Health data compliance,Not interested. Delete my contact information immediately under Section 11 right to erasure.,opt_out,true,Statutory DPDP Section 11 erasure demand
+5,sneha.kulkarni@learnbridge.example,Re: Edtech identity management,Take me off your outreach sequence right away.,opt_out,true,Outreach sequence opt-out
+6,siddharth.sen@lendsmart.example,Re: RBI lending audit defense,No more emails thank you.,opt_out,true,Polite no more emails
+7,divya.menon@carefirst.example,Re: Zero trust perimeter,Kindly remove our address from your marketing records and customer database.,opt_out,true,Corporate database removal request
+8,karan.singhania@tutorgrid.example,Re: Microservices compliance,Do not contact me again.,opt_out,true,Firm do not contact request
+9,pooja.hegde@quickbuy.example,Re: KYC repository compliance,We request DPDP data erasure for this email address and all linked identifiers.,opt_out,true,Formal DPDP erasure request
+10,manish.gupta@apistack.example,Re: Enterprise SSO audit,Cease communication immediately. We do not accept unsolicited vendor outreach.,opt_out,true,Cease communication demand
+11,aarav.sharma@finflow.example,Re: DPDP Act readiness - FinFlow Technologies,I would be interested in seeing a demo of DPDPFlow next week. Can you share timing?,interested,false,Demo interest inquiry
+12,priya.patel@healthnest.example,Re: Section 5 notices,Sounds promising. Can you send over a calendar link for a 15-min chat with our privacy council?,interested,false,Calendar link request
+13,sunita.rao@credvault.example,Re: Fintech sandbox data governance,Let's connect on Tuesday. Please send an invite for 3 PM IST.,interested,false,Meeting scheduling with specific time
+14,gaurav.kapoor@pharmatrace.example,Re: SOC2 and Section 8 readiness,Very timely as we prepare for DPDP Act audit. Please share the product deck and pricing.,interested,false,Product deck and pricing request
+15,ritu.saxena@skillforge.example,Re: Section 9 child consent,Book a demo for our CISO team for Thursday afternoon.,interested,false,CISO team demo booking
+16,abhishek.bannerjee@orderzen.example,Re: AWS Mumbai data localisation,We would love to see how your Section 8 safeguards work in a live environment.,interested,false,Feature evaluation interest
+17,tanvi.mehta@opsstream.example,Re: DPIA automation,Yes interested in evaluating this for our fintech platform. Send your onboarding details.,interested,false,Platform evaluation interest
+18,rajesh.nambiar@payzenith.example,Re: Automated grievance redressal,Let's schedule a call tomorrow at 4 PM IST to discuss deployment.,interested,false,Call scheduling inquiry
+19,meera.pillai@biohealth.example,Re: Patient telemetry safeguards,Happy to chat next week. Please send through your availability link.,interested,false,Availability link request
+20,varun.chopra@classcraft.example,Re: Edtech tutoring privacy,Sounds good. Let's discuss pricing and deployment options for high-growth startups.,interested,false,Pricing discussion interest
+21,shalini.roy@bazaarbridge.example,Re: Terms of service and cookie consent,I am the wrong person for this. Please reach out to our DPO Kavita.,wrong_person,false,Redirect to DPO
+22,naveen.bhat@metricforge.example,Re: Database partitioning security,Not the right person. Forwarding this to our CTO.,wrong_person,false,Forwarded to CTO
+23,deepak.nair@wealthpath.example,Re: Cross-border transfer review,I no longer handle compliance here. Please contact our legal team.,wrong_person,false,Role transition notification
+24,smriti.varma@ayurcare.example,Re: EHR sync security daemon,I have left the company recently. Please remove my address from personal correspondence.,wrong_person,false,Departed company notification
+25,kunal.chhabra@nextgen.example,Re: Retention purge audit,You should reach out to Rohan who leads our infosec practice at rohan@nextgen.example.,wrong_person,false,Direct referral with email
+26,bhavna.mehra@hypercart.example,Re: Dark store data compliance,Please speak with our Head of Legal regarding DPDP matters.,wrong_person,false,Redirect to Head of Legal
+27,amitabh.sen@logixhub.example,Re: Kafka stream security,Wrong contact. Our CISO oversees data protection and platform security.,wrong_person,false,Redirect to CISO
+28,anand.trivedi@rupeeroute.example,Re: Multilingual notices,I moved to a different department contact compliance@rupeeroute.example.,wrong_person,false,Department change redirect
+29,swati.bose@omnicare.example,Re: Vendor associate contracts,Not responsible for vendor software procurement. Forwarding to IT security.,wrong_person,false,Procurement redirect to IT
+30,nikhil.agarwal@codelearn.example,Re: MFA hardware deployment,Please redirect your inquiry to our general counsel office.,wrong_person,false,Redirect to General Counsel
+31,vikram.malhotra@eduscale.example,Re: ISO 27001 update,Not now we are fully committed with our ISO audit this quarter.,not_now,false,Quarterly audit commitment objection
+32,preeti.sethi@smartbasket.example,Re: Logistics expansion,Please check back next quarter when our annual budget planning begins.,not_now,false,Budget cycle delay
+33,harish.murthy@saasgrid.example,Re: Access log consolidation,No budget available for privacy tooling at this moment.,not_now,false,Budget constraint objection
+34,vandana.kaul@instaloan.example,Re: Consent withdrawal workflow,We are currently busy with a major core banking migration. Reach out in 3 months.,not_now,false,3-month migration delay
+35,pradeep.soni@pulseline.example,Re: Simulated breach exercise,Timing isn't right for us right now. Revisit in July.,not_now,false,Specific month follow-up
+36,archana.ghosh@vidyahub.example,Re: Minor student consent flows,We are evaluating other priorities at the moment check back later.,not_now,false,Priority mismatch delay
+37,sameer.jain@clickship.example,Re: SMS/WhatsApp notification consent,Busy this quarter. Let's touch base later in the year.,not_now,false,Later in year touch base
+38,geeta.krishnan@cloudcore.example,Re: Vendor DPA clauses,Not looking to procure any compliance solutions right now.,not_now,false,No procurement plan objection
+39,tarun.goswami@bharatpay.example,Re: UPI transaction retention logs,We already have an existing vendor for this fiscal year.,not_now,false,Incumbent vendor objection
+40,monika.bansal@zeevhealth.example,Re: DLP endpoint safeguards,Thanks for reaching out but our roadmap is frozen until Q4.,not_now,false,Roadmap freeze objection

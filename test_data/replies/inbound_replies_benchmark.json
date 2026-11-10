@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "from_email": "ananya.iyer@cartcraft.example",
+    "subject": "Re: Section 5 consent notices - CartCraft",
+    "body": "stop sending these emails",
+    "expected_classification": "opt_out",
+    "expected_suppression": true,
+    "description": "Direct keyword stop"
+  },
+  {
+    "id": 2,
+    "from_email": "rohan.desai@cloudmetric.example",
+    "subject": "Re: Telemetry audit",
+    "body": "Unsubscribe immediately.",
+    "expected_classification": "opt_out",
+    "expected_suppression": true,
+    "description": "Standard single-word unsubscribe"
+  },
+  {
+    "id": 3,
+    "from_email": "kavita.nair@securepay.example",
+    "subject": "Re: DPDP governance",
+    "body": "Please remove me from this list and do not reach out again.",
+    "expected_classification": "opt_out",
+    "expected_suppression": true,
+    "description": "Polite list removal request"
+  },
+  {
+    "id": 4,
+    "from_email": "arjun.reddy@medisync.example",
+    "subject": "Re: Health data compliance",
+    "body": "Not interested. Delete my contact information immediately under Section 11 right to erasure.",
+    "expected_classification": "opt_out",
+    "expected_suppression": true,
+    "description": "Statutory DPDP Section 11 erasure demand"
+  },
+  {
+    "id": 5,
+    "from_email": "sneha.kulkarni@learnbridge.example",
+    "subject": "Re: Edtech identity management",
+    "body": "Take me off your outreach sequence right away.",
+    "expected_classification": "opt_out",
+    "expected_suppression": true,
+    "description": "Outreach sequence opt-out"
+  },
+  {
+    "id": 6,
+    "from_email": "siddharth.sen@lendsmart.example",
+    "subject": "Re: RBI lending audit defense",
+    "body": "No more emails, thank you.",
+    "expected_classification": "opt_out",
+    "expected_suppression": true,
+    "description": "Polite no more emails"
+  },
+  {
+    "id": 7,
+    "from_email": "divya.menon@carefirst.example",
+    "subject": "Re: Zero trust perimeter",
+    "body": "Kindly remove our address from your marketing records and customer database.",
+    "expected_classification": "opt_out",
+    "expected_suppression": true,
+    "description": "Corporate database removal request"
+  },
+  {
+    "id": 8,
+    "from_email": "karan.singhania@tutorgrid.example",
+    "subject": "Re: Microservices compliance",
+    "body": "Do not contact me again.",
+    "expected_classification": "opt_out",
+    "expected_suppression": true,
+    "description": "Firm do not contact request"
+  },
+  {
+    "id": 9,
+    "from_email": "pooja.hegde@quickbuy.example",
+    "subject": "Re: KYC repository compliance",
+    "body": "We request DPDP data erasure for this email address and all linked identifiers.",
+    "expected_classification": "opt_out",
+    "expected_suppression": true,
+    "description": "Formal DPDP erasure request"
+  },
+  {
+    "id": 10,
+    "from_email": "manish.gupta@apistack.example",
+    "subject": "Re: Enterprise SSO audit",
+    "body": "Cease communication immediately. We do not accept unsolicited vendor outreach.",
+    "expected_classification": "opt_out",
+    "expected_suppression": true,
+    "description": "Cease communication demand"
+  },
+  {
+    "id": 11,
+    "from_email": "aarav.sharma@finflow.example",
+    "subject": "Re: DPDP Act readiness - FinFlow Technologies",
+    "body": "I would be interested in seeing a demo of DPDPFlow next week. Can you share timing?",
+    "expected_classification": "interested",
+    "expected_suppression": false,
+    "description": "Demo interest inquiry"
+  },
+  {
+    "id": 12,
+    "from_email": "priya.patel@healthnest.example",
+    "subject": "Re: Section 5 notices",
+    "body": "Sounds promising. Can you send over a calendar link for a 15-min chat with our privacy council?",
+    "expected_classification": "interested",
+    "expected_suppression": false,
+    "description": "Calendar link request"
+  },
+  {
+    "id": 13,
+    "from_email": "sunita.rao@credvault.example",
+    "subject": "Re: Fintech sandbox data governance",
+    "body": "Let's connect on Tuesday. Please send an invite for 3 PM IST.",
+    "expected_classification": "interested",
+    "expected_suppression": false,
+    "description": "Meeting scheduling with specific time"
+  },
+  {
+    "id": 14,
+    "from_email": "gaurav.kapoor@pharmatrace.example",
+    "subject": "Re: SOC2 and Section 8 readiness",
+    "body": "Very timely as we prepare for DPDP Act audit. Please share the product deck and pricing.",
+    "expected_classification": "interested",
+    "expected_suppression": false,
+    "description": "Product deck and pricing request"
+  },
+  {
+    "id": 15,
+    "from_email": "ritu.saxena@skillforge.example",
+    "subject": "Re: Section 9 child consent",
+    "body": "Book a demo for our CISO team for Thursday afternoon.",
+    "expected_classification": "interested",
+    "expected_suppression": false,
+    "description": "CISO team demo booking"
+  },
+  {
+    "id": 16,
+    "from_email": "abhishek.bannerjee@orderzen.example",
+    "subject": "Re: AWS Mumbai data localisation",
+    "body": "We would love to see how your Section 8 safeguards work in a live environment.",
+    "expected_classification": "interested",
+    "expected_suppression": false,
+    "description": "Feature evaluation interest"
+  },
+  {
+    "id": 17,
+    "from_email": "tanvi.mehta@opsstream.example",
+    "subject": "Re: DPIA automation",
+    "body": "Yes, interested in evaluating this for our fintech platform. Send your onboarding details.",
+    "expected_classification": "interested",
+    "expected_suppression": false,
+    "description": "Platform evaluation interest"
+  },
+  {
+    "id": 18,
+    "from_email": "rajesh.nambiar@payzenith.example",
+    "subject": "Re: Automated grievance redressal",
+    "body": "Let's schedule a call tomorrow at 4 PM IST to discuss deployment.",
+    "expected_classification": "interested",
+    "expected_suppression": false,
+    "description": "Call scheduling inquiry"
+  },
+  {
+    "id": 19,
+    "from_email": "meera.pillai@biohealth.example",
+    "subject": "Re: Patient telemetry safeguards",
+    "body": "Happy to chat next week. Please send through your availability link.",
+    "expected_classification": "interested",
+    "expected_suppression": false,
+    "description": "Availability link request"
+  },
+  {
+    "id": 20,
+    "from_email": "varun.chopra@classcraft.example",
+    "subject": "Re: Edtech tutoring privacy",
+    "body": "Sounds good. Let's discuss pricing and deployment options for high-growth startups.",
+    "expected_classification": "interested",
+    "expected_suppression": false,
+    "description": "Pricing discussion interest"
+  },
+  {
+    "id": 21,
+    "from_email": "shalini.roy@bazaarbridge.example",
+    "subject": "Re: Terms of service and cookie consent",
+    "body": "I am the wrong person for this. Please reach out to our DPO, Kavita.",
+    "expected_classification": "wrong_person",
+    "expected_suppression": false,
+    "description": "Redirect to DPO"
+  },
+  {
+    "id": 22,
+    "from_email": "naveen.bhat@metricforge.example",
+    "subject": "Re: Database partitioning security",
+    "body": "Not the right person. Forwarding this to our CTO.",
+    "expected_classification": "wrong_person",
+    "expected_suppression": false,
+    "description": "Forwarded to CTO"
+  },
+  {
+    "id": 23,
+    "from_email": "deepak.nair@wealthpath.example",
+    "subject": "Re: Cross-border transfer review",
+    "body": "I no longer handle compliance here. Please contact our legal team.",
+    "expected_classification": "wrong_person",
+    "expected_suppression": false,
+    "description": "Role transition notification"
+  },
+  {
+    "id": 24,
+    "from_email": "smriti.varma@ayurcare.example",
+    "subject": "Re: EHR sync security daemon",
+    "body": "I have left the company recently. Please remove my address from personal correspondence.",
+    "expected_classification": "wrong_person",
+    "expected_suppression": false,
+    "description": "Departed company notification"
+  },
+  {
+    "id": 25,
+    "from_email": "kunal.chhabra@nextgen.example",
+    "subject": "Re: Retention purge audit",
+    "body": "You should reach out to Rohan who leads our infosec practice at rohan@nextgen.example.",
+    "expected_classification": "wrong_person",
+    "expected_suppression": false,
+    "description": "Direct referral with email"
+  },
+  {
+    "id": 26,
+    "from_email": "bhavna.mehra@hypercart.example",
+    "subject": "Re: Dark store data compliance",
+    "body": "Please speak with our Head of Legal regarding DPDP matters.",
+    "expected_classification": "wrong_person",
+    "expected_suppression": false,
+    "description": "Redirect to Head of Legal"
+  },
+  {
+    "id": 27,
+    "from_email": "amitabh.sen@logixhub.example",
+    "subject": "Re: Kafka stream security",
+    "body": "Wrong contact. Our CISO oversees data protection and platform security.",
+    "expected_classification": "wrong_person",
+    "expected_suppression": false,
+    "description": "Redirect to CISO"
+  },
+  {
+    "id": 28,
+    "from_email": "anand.trivedi@rupeeroute.example",
+    "subject": "Re: Multilingual notices",
+    "body": "I moved to a different department, contact compliance@rupeeroute.example.",
+    "expected_classification": "wrong_person",
+    "expected_suppression": false,
+    "description": "Department change redirect"
+  },
+  {
+    "id": 29,
+    "from_email": "swati.bose@omnicare.example",
+    "subject": "Re: Vendor associate contracts",
+    "body": "Not responsible for vendor software procurement. Forwarding to IT security.",
+    "expected_classification": "wrong_person",
+    "expected_suppression": false,
+    "description": "Procurement redirect to IT"
+  },
+  {
+    "id": 30,
+    "from_email": "nikhil.agarwal@codelearn.example",
+    "subject": "Re: MFA hardware deployment",
+    "body": "Please redirect your inquiry to our general counsel office.",
+    "expected_classification": "wrong_person",
+    "expected_suppression": false,
+    "description": "Redirect to General Counsel"
+  },
+  {
+    "id": 31,
+    "from_email": "vikram.malhotra@eduscale.example",
+    "subject": "Re: ISO 27001 update",
+    "body": "Not now, we are fully committed with our ISO audit this quarter.",
+    "expected_classification": "not_now",
+    "expected_suppression": false,
+    "description": "Quarterly audit commitment objection"
+  },
+  {
+    "id": 32,
+    "from_email": "preeti.sethi@smartbasket.example",
+    "subject": "Re: Logistics expansion",
+    "body": "Please check back next quarter when our annual budget planning begins.",
+    "expected_classification": "not_now",
+    "expected_suppression": false,
+    "description": "Budget cycle delay"
+  },
+  {
+    "id": 33,
+    "from_email": "harish.murthy@saasgrid.example",
+    "subject": "Re: Access log consolidation",
+    "body": "No budget available for privacy tooling at this moment.",
+    "expected_classification": "not_now",
+    "expected_suppression": false,
+    "description": "Budget constraint objection"
+  },
+  {
+    "id": 34,
+    "from_email": "vandana.kaul@instaloan.example",
+    "subject": "Re: Consent withdrawal workflow",
+    "body": "We are currently busy with a major core banking migration. Reach out in 3 months.",
+    "expected_classification": "not_now",
+    "expected_suppression": false,
+    "description": "3-month migration delay"
+  },
+  {
+    "id": 35,
+    "from_email": "pradeep.soni@pulseline.example",
+    "subject": "Re: Simulated breach exercise",
+    "body": "Timing isn't right for us right now. Revisit in July.",
+    "expected_classification": "not_now",
+    "expected_suppression": false,
+    "description": "Specific month follow-up"
+  },
+  {
+    "id": 36,
+    "from_email": "archana.ghosh@vidyahub.example",
+    "subject": "Re: Minor student consent flows",
+    "body": "We are evaluating other priorities at the moment, check back later.",
+    "expected_classification": "not_now",
+    "expected_suppression": false,
+    "description": "Priority mismatch delay"
+  },
+  {
+    "id": 37,
+    "from_email": "sameer.jain@clickship.example",
+    "subject": "Re: SMS/WhatsApp notification consent",
+    "body": "Busy this quarter. Let's touch base later in the year.",
+    "expected_classification": "not_now",
+    "expected_suppression": false,
+    "description": "Later in year touch base"
+  },
+  {
+    "id": 38,
+    "from_email": "geeta.krishnan@cloudcore.example",
+    "subject": "Re: Vendor DPA clauses",
+    "body": "Not looking to procure any compliance solutions right now.",
+    "expected_classification": "not_now",
+    "expected_suppression": false,
+    "description": "No procurement plan objection"
+  },
+  {
+    "id": 39,
+    "from_email": "tarun.goswami@bharatpay.example",
+    "subject": "Re: UPI transaction retention logs",
+    "body": "We already have an existing vendor for this fiscal year.",
+    "expected_classification": "not_now",
+    "expected_suppression": false,
+    "description": "Incumbent vendor objection"
+  },
+  {
+    "id": 40,
+    "from_email": "monika.bansal@zeevhealth.example",
+    "subject": "Re: DLP endpoint safeguards",
+    "body": "Thanks for reaching out, but our roadmap is frozen until Q4.",
+    "expected_classification": "not_now",
+    "expected_suppression": false,
+    "description": "Roadmap freeze objection"
+  }
+]

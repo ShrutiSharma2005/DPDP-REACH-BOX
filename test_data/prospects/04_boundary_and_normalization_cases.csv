@@ -1,0 +1,13 @@
+name,role,company,work_email,country,employee_count,sector,source,lawful_basis,recent_trigger,phone
+Min Boundary Lead,DPO,ExactFifty Technologies,min.fifty@exactfifty.example,India,50,fintech,Company Directory,made_public_by_person,Tests employee_count exact lower boundary 50,
+Max Boundary Lead,CISO,ExactFiveThousand Corp,max.fivethousand@fivek.example,India,5000,health,Healthcare Directory,gave_voluntarily,Tests employee_count exact upper boundary 5000,
+Financial Services Alias,Head of Legal,CapitalBridge,fs.alias@capbridge.example,IN,250,financial services,Public Directory,made_public_by_person,Tests sector normalization for financial services,
+Healthtech Alias,CTO,BioPulse Labs,ht.alias@biopulse.example,India,320,healthtech,Health Registry,made_public_by_person,Tests sector normalization for healthtech,
+Healthcare Alias,DPO,MedSecure India,hc.alias@medsecure.example,india,480,healthcare,Healthcare Summit,gave_voluntarily,Tests sector normalization for healthcare and lowercase country,
+Edtech Alias,Head of Compliance,TutorTree,ed.alias@tutortree.example,India,190,education,EdTech Registry,consented,Tests sector normalization for education,
+Ecommerce Retail Alias,Founder & CEO,ShopTrendz,retail.alias@shoptrendz.example,India,140,retail,Retail Forum,consented,Tests sector normalization for retail,
+Ecommerce Marketplace Alias,CTO,MarketPlaza,mkt.alias@marketplaza.example,IN,620,marketplace,Ecom Forum,made_public_by_person,Tests sector normalization for marketplace and IN country code,
+Software SaaS Alias,CISO,CodeForge Software,soft.alias@codeforge.example,India,850,software,Developer Directory,gave_voluntarily,Tests sector normalization for software to SaaS,
+Consented Basis Lead,DPO,ConsentDemo India,consented.user@consentdemo.example,India,310,fintech,Opt-in Form,consented,Tests Section 6 consented lawful basis,
+Gave Voluntarily Lead,CISO,VoluntaryDemo Corp,voluntary.user@voluntarydemo.example,India,420,SaaS,Speaker Bio,gave_voluntarily,Tests Section 7(a) gave_voluntarily lawful basis,
+Public Notice Lead,Head of Legal,PublicNotice Tech,public.user@publicnoticetech.example,India,750,e-commerce,Regulatory Filing,made_public_by_person,Tests Section 3(c)(ii)(A) made_public_by_person basis
